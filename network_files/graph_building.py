@@ -9,10 +9,6 @@ import matplotlib.pyplot as plt
 
 import numpy as np
 
-import dash
-import dash_core_components as dcc
-import dash_html_components as html
-
 def get_graph_positions(G, layout = 'kamadi'):
     if layout == 'spring':
         pos = nx.spring_layout(G, k = 0.5)
