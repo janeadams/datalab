@@ -3,3 +3,5 @@ cache/
 __pycache__/
 .ipynb_checkpoints/
 .vscode/
+.DS_Store
+*/.DS_Store
